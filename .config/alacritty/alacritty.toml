@@ -1,3 +1,19 @@
+[general]
+live_config_reload = true
 [window.padding]
 x = 10
 y = 10
+[font]
+size = 15
+[font.normal]
+family = "JetBrains Mono Nerd Font"
+style = "Regular"
+[font.bold]
+family = "JetBrains Mono Nerd Font"
+style = "Bold"
+[font.italic]
+family = "JetBrains Mono Nerd Font"
+style = "italic"
+[font.bold_italic]
+family = "JetBrains Mono Nerd Fond"
+style = "Bold Italic"
