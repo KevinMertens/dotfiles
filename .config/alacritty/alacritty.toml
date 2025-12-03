@@ -4,6 +4,9 @@ import = [ "catppuccin-mocha.toml" ]
 [window.padding]
 x = 10
 y = 10
+[scrolling]
+history = 100000
+multiplier = 3
 [font]
 size = 15
 [font.normal]
@@ -18,3 +21,10 @@ style = "italic"
 [font.bold_italic]
 family = "JetBrains Mono Nerd Fond"
 style = "Bold Italic"
+[cursor.style]
+shape = "Underline"
+blinking = "Always"
+[cursor]
+blink_interval = 500
+thickness = 0.25
+unfocused_hollow = false
