@@ -1,5 +1,6 @@
 [general]
 live_config_reload = true
+import = [ "catppuccin-mocha.toml" ]
 [window.padding]
 x = 10
 y = 10
