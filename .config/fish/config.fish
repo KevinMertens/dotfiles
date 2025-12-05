@@ -6,12 +6,9 @@ if status is-interactive
     end
 
     starship init fish | source
-    zoxide init fish | source
+    zoxide init fish --cmd cd | source
 
     enable_transience
-
-    alias cd="z"
-    alias cdi="zi"
 
     alias ls="eza --color=always --group-directories-first --icons --git-ignore --git"
     alias ll="eza --color=always --group-directories-first --icons --header --long --git-ignore --git"
