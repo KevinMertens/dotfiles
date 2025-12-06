@@ -4,3 +4,7 @@
 [user]
 	name = Kevin Mertens
 	email = kevin_mertens@telenet.be
+[init]
+	defaultBranch = main
+[fetch]
+	prune = true

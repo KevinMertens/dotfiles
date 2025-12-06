@@ -8,12 +8,16 @@ if status is-interactive
     starship init fish | source
     zoxide init fish --cmd cd | source
 
-    enable_transience
+    # enable_transience
 
     alias ls="eza --color=always --group-directories-first --icons --git-ignore --git"
     alias ll="eza --color=always --group-directories-first --icons --header --long --git-ignore --git"
     alias la="eza -a --color=always --group-directories-first --icons --header --long --git-ignore --git"
     alias tree="eza -T -a --color=always --group-directories-first --icons --git-ignore"
+
+    alias vim="nvim"
+    alias vi="nvim"
+    alias nano="nvim"
 
     alias gs="git status"
     alias gd="git diff"
