@@ -1,10 +1,22 @@
+[include]
+    path = ~/.config/delta/delta.gitconfig
+
 [core]
-	editor = vim
+    editor = vim
+    pager = delta
 
 [user]
-	name = Kevin Mertens
-	email = kevin_mertens@telenet.be
+    name = Kevin Mertens
+    email = kevin_mertens@telenet.be
+
 [init]
-	defaultBranch = main
+    defaultBranch = main
+
 [fetch]
-	prune = true
+    prune = true
+
+[interactive]
+    diffFilter = delta --color-only
+
+[merge]
+    conflictStyle = zdiff3

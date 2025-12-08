@@ -10,6 +10,7 @@ if status is-interactive
 
     enable_transience
 
+    # https://github.com/eza-community/eza
     alias ls="eza --color=always --group-directories-first --icons --git-ignore --git"
     alias ll="eza --color=always --group-directories-first --icons --header --long --git-ignore --git"
     alias la="eza -a --color=always --group-directories-first --icons --header --long --git-ignore --git"
@@ -26,7 +27,13 @@ if status is-interactive
     alias gp="git push"
     alias gu="git pull"
 
+    # https://github.com/tldr-pages/tldr
     alias tldr="tldr -Len"
+
+    # https://github.com/BurntSushi/ripgrep 
     alias rg="rg --hidden"
+
+    # https://github.com/sharkdp/bat
+    alias cat="bat --style=plain"
 
 end
