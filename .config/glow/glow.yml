@@ -1,0 +1,12 @@
+# https://github.com/charmbracelet/glow?tab=readme-ov-file
+
+# style name or JSON path (default "auto")
+style: /home/kevin/.config/glow/catppuccin-mocha.json
+# mouse support (TUI-mode only)
+mouse: false
+# use pager to display markdown
+pager: true
+# word-wrap at width
+width: 80
+# show all files, including hidden and ignored.
+all: false
