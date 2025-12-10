@@ -10,6 +10,7 @@ if status is-interactive
 
     # https://github.com/sharkdp/vivid
     set -gx LS_COLORS "$(vivid generate catppuccin-mocha)"
+    set -gx EDITOR nvim 
 
     enable_transience
 
@@ -31,9 +32,6 @@ if status is-interactive
     alias gc="git commit"
     alias gp="git push"
     alias gu="git pull"
-
-    # https://github.com/tldr-pages/tldr
-    alias tldr="tldr -Len"
 
     # https://github.com/BurntSushi/ripgrep 
     alias rg="rg --hidden"
