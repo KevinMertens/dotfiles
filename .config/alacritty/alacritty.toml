@@ -19,7 +19,7 @@ family = "JetBrains Mono Nerd Font"
 style = "Bold"
 [font.italic]
 family = "JetBrains Mono Nerd Font"
-style = "italic"
+style = "Italic"
 [font.bold_italic]
 family = "JetBrains Mono Nerd Fond"
 style = "Bold Italic"
