@@ -10,7 +10,8 @@ if status is-interactive
 
     # https://github.com/sharkdp/vivid
     set -gx LS_COLORS "$(vivid generate catppuccin-mocha)"
-    set -gx EDITOR nvim 
+    set -gx EDITOR nvim
+    set -gx STARSHIP_CONFIG ~/.config/starship/starship.toml
 
     enable_transience
 
