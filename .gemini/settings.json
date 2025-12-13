@@ -1,0 +1,10 @@
+{
+  "security": {
+    "auth": {
+      "selectedType": "oauth-personal"
+    }
+  },
+  "ui": {
+    "theme": "/home/kevin/.gemini/theme/catppuccin-mocha.json"
+  }
+}
