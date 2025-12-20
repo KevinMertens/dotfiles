@@ -104,5 +104,4 @@ require 'config.keymaps'
 -- [[ Install `lazy.nvim` plugin manager ]]
 require 'config.lazy'
 
--- [[ Configure and install plugins ]]
--- TODO : require 'plugins'
+require 'autocommands'
