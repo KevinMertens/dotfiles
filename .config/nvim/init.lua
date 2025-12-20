@@ -105,3 +105,5 @@ require 'config.keymaps'
 require 'config.lazy'
 
 require 'autocommands'
+
+vim.lsp.enable('lua_ls')
