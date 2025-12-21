@@ -1,9 +1,9 @@
 -- https://github.com/nvim-treesitter/nvim-treesitter
-
 return {
   "nvim-treesitter/nvim-treesitter",
   branch = "master",
   build = ":TSUpdate",
+  main = "nvim-treesitter.configs",
   opts = {
     ensure_installed = {
       "bash",
@@ -15,6 +15,7 @@ return {
       "markdown",
       "markdown_inline",
       "query",
+      "regex",
       "vim",
       "vimdoc",
     },
