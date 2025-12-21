@@ -12,10 +12,13 @@ return {
       -- Conform will run the first available formatter
       --javascript = { "prettierd", "prettier", stop_after_first = true },
     },
+    --[[
     formatters = {
       stylua = {
         prepend_args = { "--indent-type", "Spaces", "--indent-width", "2" },
       },
     },
+    ]]
+    --
   },
 }
