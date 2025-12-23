@@ -26,6 +26,8 @@ if status is-interactive
     alias find="fd --hidden --exclude .git --color=always"
 
     alias vim="nvim"
+    alias kvim="NVIM_APPNAME=kickstart-nvim nvim"
+    alias lvim="NVIM_APPNAME=lazyvim nvim"
 
     alias gs="git status"
     alias gd="git diff"
