@@ -28,6 +28,7 @@ if status is-interactive
     alias vim="nvim"
     alias kvim="NVIM_APPNAME=kickstart-nvim nvim"
     alias lvim="NVIM_APPNAME=lazyvim nvim"
+    alias cvim="NVIM_APPNAME=nvchad nvim"
 
     alias gs="git status"
     alias gd="git diff"
