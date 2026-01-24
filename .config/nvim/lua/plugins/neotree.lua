@@ -1,5 +1,7 @@
 -- https://github.com/nvim-neo-tree/neo-tree.nvim
 
+-- TODO : lock neotree to project root!
+
 return {
   "nvim-neo-tree/neo-tree.nvim",
   branch = "v3.x",
@@ -11,13 +13,16 @@ return {
   lazy = false,
   config = function()
     require("neo-tree").setup({
-      follow_current_file = {
-        enabled = true,
-        leave_dirs_open = false,
+      close_if_last_window = true,
+      window = {
+        position = "right",
+        width = 40,
       },
-      mappings = {
-        h = "parent_or_close",
-        l = "child_or_open",
+      buffers = {
+        follow_current_file = {
+          enabled = true,
+          leave_dirs_open = false,
+        },
       },
     })
   end,
