@@ -7,7 +7,6 @@ return {
     "MunifTanjim/nui.nvim",
     "rcarriga/nvim-notify",
   },
-
   config = function()
     require("noice").setup({
       lsp = {
@@ -16,7 +15,6 @@ return {
           ["vim.lsp.util.stylize_markdown"] = true,
         },
       },
-      views = {},
     })
   end,
 }
