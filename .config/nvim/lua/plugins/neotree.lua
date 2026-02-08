@@ -16,13 +16,14 @@ return {
       close_if_last_window = true,
       window = {
         position = "right",
-        width = 40,
+        width = 50,
       },
       buffers = {
-        follow_current_file = {
-          enabled = true,
-          leave_dirs_open = false,
-        },
+        follow_current_file = { enabled = true },
+      },
+      filesystem = {
+        follow_current_file = { enabled = true },
+        use_libuv_file_watcher = true,
       },
     })
   end,
