@@ -17,6 +17,9 @@ return {
       window = {
         position = "right",
         width = 50,
+        mappings = {
+          ["<cr>"] = "open_tab_drop",
+        },
       },
       buffers = {
         follow_current_file = { enabled = true },
