@@ -26,11 +26,6 @@ if status is-interactive
     # https://github.com/sharkdp/fd
     alias find="fd --hidden --exclude .git --color=always"
 
-    alias vim="nvim"
-    alias kvim="NVIM_APPNAME=kickstart-nvim nvim"
-    alias lvim="NVIM_APPNAME=lazyvim nvim"
-    alias cvim="NVIM_APPNAME=nvchad nvim"
-
     alias gs="git status"
     alias gd="git diff"
     alias ga="git add"
